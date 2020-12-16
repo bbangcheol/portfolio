@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sangcheol`s portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+<body>
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script> AOS.init(); </script>
+
+  <!--스크롤-->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <script> function fnMove(seq){var offset = $("#a" + seq).offset();$('html, body')
+  .animate({scrollTop : offset.top}, 400);}</script>
+
+  <!--모바일로 이동하는 스크립트 시작-->
+  <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+  </script>
+  <!--모바일로 이동하는 스크립트 끝-->
+
+<header>
+  <nav>
+     <div class="logo">
+       <img src="img/01_logo.png" alt="Sc`s portfolio">
+     </div>
+     <div class="menu">
+<ul>
+    <li><a onclick="fnMove('1')">Editorial</a></li>
+    <li><a onclick="fnMove('2')">Package</a></li>
+    <li><a onclick="fnMove('3')">Identity</a></li>
+    <li><a onclick="fnMove('4')">Advertising</a></li>
+</ul>
+  </div>
+  </nav>
+</header>
+  <section>
+
+    <!--타이틀 부문-->
+  <div class="keyvisual" data-aos="fade-up" data-aos-duration="2500">
+    <div class="keyvisual_wrap">
+      <div class="keyvisual_01"><img src="img/1.png"></div>
+    </div>
+  </div>
+
+  <!--프로필 부문-->
+
+  <div class="profile">
+    <div class="profile_wrap">
+      <div class="profile_01" data-aos="fade-up" data-aos-duration="2500"><img src="img/04_01_txt.png" alt="이름/연락처"></div>
+      <span class="profile_02" data-aos="fade-up" data-aos-duration="2500"><img src="img/04_02_txt.png" alt="EDUCATION"></span>
+      <span class="profile_03" data-aos="fade-up" data-aos-duration="2500"><img src="img/04_03_txt.png" alt="WORK"></span>
+      <div class="profile_04" data-aos="fade-up" data-aos-duration="2500"><img src="img/04_04_txt.png" alt="SKILLS"></div>
+      <div class="profile_05" data-aos="fade-up" data-aos-duration="2500"><img src="img/04_05_txt.png" alt="LICENCE"></div>
+    </div>
+  </div>
+
+  <!--컨텐츠 부문-->
+
+  <div class="contents">
+    <div class="contents_wrap">
+      <span class="contents_01" data-aos="fade-up" data-aos-duration="2500"><img src="img/05_tit.png"></span>
+      <span class="contents_02" data-aos="fade-up" data-aos-duration="2500"><img src="img/05_txt.png"></span>
+    </div>
+  </div>
+
+
+
+<!--포트폴리오 부문-->
+ <div class="pf1" alt="editorial" id="a1">
+  <div class="pf1_wrap">
+    <div class="pf1_06_1" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_1.png" alt="tit"></div>
+    <div class="pf1_06_2" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_2.png" alt="bookcover_01"></div>
+    <div class="pf1_06_3" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_3.png" alt="bookcover_02"></div>
+    <div class="pf1_06_4" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_4.png" alt="leaflet_01"></div>
+    <div class="pf1_06_5" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_5.png" alt="newspaper_01"></div>
+    <div class="pf1_06_6" data-aos="fade-up" data-aos-duration="2500"><img src="img/06_6.png" alt="calendar_01"></div>
+  </div>
+ </div>
+
+<div class="pf2" alt="package" id="a2">
+  <div class="pf2_wrap">
+    <div class="pf2_07_1" data-aos="fade-up" data-aos-duration="2500"><img src="img/07_1.png" alt="tit"></div>
+    <div class="pf2_07_2" data-aos="fade-up" data-aos-duration="2500"><img src="img/07_2.png" alt="서울우유"></div>
+    <div class="pf2_07_3" data-aos="fade-up" data-aos-duration="2500"><img src="img/07_3.png" alt="Dr.G"></div>
+  </div>
+</div>
+
+<div class="pf3" alt="identity" id="a3">
+  <div class="pf3_wrap">
+    <div class="pf3_08_1" data-aos="fade-up" data-aos-duration="2500"><img src="img/08_1.png" alt="tit"></div>
+    <div class="pf3_08_2" data-aos="fade-up" data-aos-duration="2500"><img src="img/08_2.png" alt="사무용품"></div>
+    <div class="pf3_08_3" data-aos="fade-up" data-aos-duration="2500"><img src="img/08_3.png" alt="머그컵"></div>
+  </div>
+</div>
+
+<div class="pf4" alt="advertising" id="a4">
+  <div class="pf4_wrap">
+    <div class="pf4_09_1" data-aos="fade-up" data-aos-duration="2500"><img src="img/09_1.png" alt="tit"></div>
+    <div class="pf4_09_2" data-aos="fade-up" data-aos-duration="2500"><img src="img/09_2.png" alt="유니세프"></div>
+    <div class="pf4_09_3" data-aos="fade-up" data-aos-duration="2500"><img src="img/09_3.png" alt="환타"></div>
+  </div>
+</section>
+
+<!--푸터 부문-->
+<footer>
+  <div class="footer_wrap">
+   <div class="footer_10_1"><img src="img/10_1.png" alt="txt"></div>
+  </div>
+</div>
+</footer>
+
+
+  </body>
+</html>

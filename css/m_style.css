@@ -1,0 +1,47 @@
+*{margin: 0;}
+
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration:none; color: #ffffff;}
+
+header{padding-left: 4.4rem; height: 10.0rem; text-align: left;background-color: #CECDC9;}
+
+
+section > .keyvisual{padding-top: 3.1rem; text-align: center; background-color: #888788;height: 53.6rem;}
+
+section > .profile{background-color: #E2E2E2; height: 147.2rem;padding-top: 4.1rem; padding-bottom: 4.0rem;text-align: center;}
+section > .profile > .profile_03{padding-top: 3.0rem;}
+section > .profile > .profile_04{padding-top: 5.9rem;}
+section > .profile > .profile_05{padding-top: 5.9rem;}
+section > .profile > .profile_06{padding-top: 5.9rem;}
+section > .profile > .profile_07{padding-top: 5.9rem;}
+section > .profile > .profile_08{padding-top: 5.9rem;}
+
+section > .contents{padding-top: 4.2rem; background-color: #CBC8C2; height: 64.4rem;text-align: center; }
+section > .contents > .contents_09{float: left; padding-top: 18.4rem; padding-left: 5.3rem;}
+section > .contents > .contents_10{float: right; padding-top: 4.2rem;padding-right: 5.4rem;}
+
+section > .pf1{background-color: #ffffff; text-align: center;}
+section > .pf1 > .pf1_m_11{padding-top: 5.3rem;}
+section > .pf1 > .pf1_m_12{padding-top: 4.0rem;}
+section > .pf1 > .pf1_m_13{padding-top: 7.4rem;}
+section > .pf1 > .pf1_m_14{padding-top: 7.4rem;}
+section > .pf1 > .pf1_m_15{padding-top: 7.4rem;}
+section > .pf1 > .pf1_m_16{padding-top: 7.4rem;}
+
+section > .pf2{background-color: #ffffff; text-align: center;}
+section > .pf2 > .pf2_m_17{padding-top: 5.3rem;}
+section > .pf2 > .pf2_m_18{padding-top: 4.0rem;}
+section > .pf2 > .pf2_m_19{padding-top: 7.4rem;}
+
+section > .pf3{background-color: #ffffff; text-align: center;}
+section > .pf3 > .pf3_m_20{padding-top: 5.3rem;}
+section > .pf3 > .pf3_m_21{padding-top: 5.1rem;}
+section > .pf3 > .pf3_m_22{padding-top: 7.4rem;}
+
+section > .pf4{text-align: center; padding-bottom: 5.2rem;}
+section > .pf4 > .pf4_m_23{padding-top: 5.3rem;}
+section > .pf4 > .pf4_m_24{padding-top: 7.4rem;}
+section > .pf4 > .pf4_m_25{padding-top: 7.4rem;}
+
+footer > .footer_wrap{background-color: #CECDC9; height: 10.0rem; text-align: center; padding-bottom: 1.3rem;}

@@ -1,0 +1,65 @@
+ *{margin: 0;}
+ html{font-size: 10px;}
+ body{font-size: 1rem;}
+ a{text-decoration: none;}
+*{font}
+header{ background-color: #CECDC9; width: 100%;height: 10rem;}
+header > nav{width: 102.4rem; margin: auto; display: flex;justify-content: space-between;align-items: center;}
+
+header > nav > .menu {display: inline-block;}
+header > nav > .menu > ul {list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.5rem; padding-top: 2rem;}
+header > nav > .menu > ul > li > a{color: #ffffff;font-family: 'Noto Sans KR', sans-serif;
+font-size: 1.6rem;font-weight: 300;}
+header > nav > .menu > ul > li > a:hover{color: #6E686C;}
+
+
+section > .keyvisual{background-color:#888788; height: 70rem;}
+section > .keyvisual > .keyvisual_wrap{margin: auto; width: 102.4rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_01{float: center;padding-top: 8.7rem;}
+
+
+section > .profile{background-color:#E2E2E2; height: 190.0rem;}
+section > .profile > .profile_wrap {margin:auto; width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01 {padding-top:6.2rem;}
+section > .profile > .profile_wrap > .profile_02 {float: left; margin-top: 8.5rem;}
+section > .profile > .profile_wrap > .profile_03 {float:right; margin-top: 8.5rem;}
+section > .profile > .profile_wrap > .profile_04 {float: left;margin-top: 8.5rem;}
+section > .profile > .profile_wrap > .profile_05 {float:right; margin-top: 12.6rem;}
+
+section >  .contents{background-color: #CBC8C2; height: 120.0rem;}
+section >  .contents > .contents_wrap{margin: auto; width: 102.4rem;}
+section >  .contents > .contents_wrap > .contents_01{float: left; padding-top: 19.6rem;}
+section >  .contents > .contents_wrap > .contents_02{float: right; padding-top: 19.6rem;}
+
+
+section > .pf1{background-color: #ffffff; height:319.2rem;}
+section > .pf1 > .pf1_wrap{margin: auto; width: 102.4rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_1{padding-top: 15.1rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_2{float: left; padding-top: 10.1rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_3{float: right; padding-top: 12.3rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_4{float: left; padding-top: 12.3rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_5{float: right;  padding-top: 12.3rem;}
+section > .pf1 > .pf1_wrap > .pf1_06_6{float: left;  padding-top: 12.3rem;}
+
+section > .pf2{background-color: #ffffff; height:133.8rem;}
+section > .pf2 > .pf2_wrap{margin: auto; width: 102.4rem;}
+section > .pf2 > .pf2_wrap > .pf2_07_1{padding-top: 15.1rem;}
+section > .pf2 > .pf2_wrap > .pf2_07_2{float:right; padding-top: 10.1rem;}
+section > .pf2 > .pf2_wrap > .pf2_07_3{float:left; padding-top: 12.3rem;}
+
+section > .pf3{background-color: #ffffff; height:133.8rem;}
+section > .pf3 > .pf3_wrap{margin: auto; width: 102.4rem;}
+section > .pf3 > .pf3_wrap > .pf3_08_1{padding-top: 15.1rem;}
+section > .pf3 > .pf3_wrap > .pf3_08_2{float:right; padding-top:10.1rem;}
+section > .pf3 > .pf3_wrap > .pf3_08_3{float: left; padding-top: 12.3rem;}
+
+section > .pf4{background-color: #ffffff; height: 133.8rem;}
+section > .pf4 > .pf4_wrap{margin: auto;width: 102.4rem;}
+section > .pf4 > .pf4_wrap > .pf4_09_1{padding-top: 15.1rem;}
+section > .pf4 > .pf4_wrap > .pf4_09_2{float:left; padding-top: 10.1rem;}
+section > .pf4 > .pf4_wrap > .pf4_09_3{float: right;padding-top: 12.3rem;}
+
+footer{background-color:#CECDC9; height:10.0rem;}
+footer > .footer_wrap{margin:auto; width: 102.4rem;}
+footer > .footer_wrap > .footer_10_1{float: middle;}
